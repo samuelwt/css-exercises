@@ -1,6 +1,8 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  /*Changes Made*/
+  padding: 8px;
 }
 
 .card {
@@ -9,20 +11,22 @@ body {
   margin: 8px auto;
   /*Changes Made*/
   padding-top: 8px;
-  font-size: 16px;
+  padding-bottom: 4px;
 }
 
 .title {
   background: #e3f4ff;
   /*Changes Made*/
   margin: 8px;
-  margin-top: 8px;
+  font-size: 16px;
+  padding-left: 8px;
 }
 
 .content {
   background: #e3f4ff;
   /*Changes Made*/
   margin: 8px;
+  padding: 16px 8px 16px 8px;
 }
 
 .button-container {
@@ -30,9 +34,15 @@ body {
   /*Changes Made*/
   margin: 8px;
   display: block;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  /*Changes Made*/
+  margin: 0 auto;
+  display: block;
+  padding: 8px 24px;
 }
