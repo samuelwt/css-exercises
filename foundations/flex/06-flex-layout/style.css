@@ -24,3 +24,14 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* Sam's Addition */
+ul {
+  /* removes bullet points */
+  list-style-type: none;
+}
+
+a {
+  /* removes underline beneath text*/
+  text-decoration: none;
+}
