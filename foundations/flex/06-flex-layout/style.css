@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /*Sam's Addition*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -29,9 +33,33 @@ input {
 ul {
   /* removes bullet points */
   list-style-type: none;
+  display: flex;
+  margin: 8px 16px 8px 16px;
+  padding: 8px; 
+  gap: 16px;
 }
 
 a {
   /* removes underline beneath text*/
   text-decoration: none;
+  color: #3a3b3c;
+}
+
+.header, 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
